@@ -5,9 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./main.css" />
         <title>Chocobrat Bakery</title>
+
+        <script
+            src="https://kit.fontawesome.com/60832ed020.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
-        <header></header>
+        <header>
+            <div class="logo">Chocobrat</div>
+            <nav aria-label="Header Navigation" class="headerNavigation">
+                <ul>
+                    <li>
+                        <a href="#" id="currentPage">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Categories</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="headerUtilities">
+                <div class="searchBar">
+                    <input type="text" placeholder="Search" />
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <a href="#" class="userIcon"
+                    ><i class="fa-regular fa-user"></i
+                ></a>
+                <a href="#" class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cartItemCount">1</span></a
+                >
+            </div>
+        </header>
         <main>
             <section class="introSection"></section>
             <section class="productsCarousel"></section>

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular",
+        "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px 52px;
+    background-color: #fff;
+    border-bottom: 0.5px solid rgba(86, 178, 127, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 500;
+    color: #4a1d1f;
+    letter-spacing: 9%;
+    margin-right: 231px;
+}
+
+.headerNavigation {
+    max-width: 450px;
+    font-size: 16px;
+    margin-right: 95px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.headerNavigation ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.headerNavigation a:link,
+.headerNavigation a:visited {
+    color: #272727;
+}
+
+#currentPage {
+    font-weight: 500;
+    color: #4a1d1f;
+}
+
+.headerUtilities {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    font-size: 28px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.searchBar input {
+    border: 0.5px solid #4a1d1f;
+    font-size: 16px;
+    padding: 10px 17px;
+    max-width: 251px;
+    outline: none;
+}
+
+.searchBar button {
+    background-color: #4a1d1f;
+    color: #fbedcd;
+    border: none;
+    height: 45.5px;
+    padding: 10px;
+    font-size: 19px;
+    aspect-ratio: 1 / 1;
+}
+
+.headerUtilities a:link,
+.headerUtilities a:visited {
+    color: #4a1d1f;
+}
+
+.cart {
+    position: relative;
+}
+
+.cartItemCount {
+    display: block;
+    width: 11px;
+    height: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #4a1d1f;
+    color: #fbedcd;
+    text-align: center;
+    padding: 1px;
+    line-height: 11px;
+    border-radius: 100%;
+    position: absolute;
+    left: 78%;
+    bottom: 70%;
+}
