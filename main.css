@@ -211,16 +211,18 @@
 /* FOOTER SECTION */
 .footer {
     background-color: #F9E6C8; /* Color crema */
-    padding: 40px 0;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-/* Container */
-.footer-container {
-    display: block;
+.footer-upper {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1248px;
-    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4A1D1F;
 }
 
 /* Footer logo */
@@ -254,9 +256,13 @@
     gap: 15px;
 }
 
-.footer-socials img {
-    width: 20px;
-    height: 20px;
+.footer-socials a:link, 
+.footer-socials a:visited {
+    color: #4A1D1F;
+}
+
+.footer-socials i {
+    font-size: 20px;
 }
 
 /* Rights reserved */
@@ -265,4 +271,6 @@
     margin-top: 20px;
     font-size: 14px;
     color: #4A1D1F;
+    display: flex;
+    justify-content: space-between;
 }
