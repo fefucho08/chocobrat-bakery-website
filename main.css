@@ -118,10 +118,6 @@ a:visited {
     bottom: 70%;
 }
 
-main {
-    padding: 0 85px;
-}
-
 .introSection {
     display: flex;
     justify-content: space-around;
@@ -563,3 +559,4 @@ h1 {
     color: #4A1D1F;
     display: flex;
     justify-content: space-between;
+}
