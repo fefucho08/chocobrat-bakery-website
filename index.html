@@ -5,12 +5,176 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./main.css" />
         <title>Chocobrat Bakery</title>
+
+        <script
+            src="https://kit.fontawesome.com/60832ed020.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
-        <header></header>
+        <header>
+            <div class="logo">Chocobrat</div>
+            <nav aria-label="Header Navigation" class="headerNavigation">
+                <ul>
+                    <li>
+                        <a href="#" id="currentPage">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            >Categories<i class="fa-solid fa-chevron-down"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="headerUtilities">
+                <div class="searchBar">
+                    <input type="text" placeholder="Search" />
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <a href="#" class="userIcon"
+                    ><i class="fa-regular fa-user"></i
+                ></a>
+                <a href="#" class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cartItemCount">1</span></a
+                >
+            </div>
+        </header>
         <main>
-            <section class="introSection"></section>
-            <section class="productsCarousel"></section>
+            <section class="introSection">
+                <div class="textContainer">
+                    <h1>Bring you Happiness through a piece of cake</h1>
+                    <p>
+                        We make Diffrent type of cakes, chocolate, soft cookies,
+                        cheesecake pie or anything you want.
+                    </p>
+                    <button class="orderBtn">Order now</button>
+                    <button class="seeMenuBtn">See All Menus</button>
+                </div>
+                <img
+                    src="./assets/images/cake.png"
+                    alt="Image of a chocolate cake"
+                />
+                <div class="cakesDisplay">
+                    <p>
+                        <i class="fa-solid fa-arrow-left-long"></i
+                        ><span>01/<sup>12</sup></span
+                        ><i class="fa-solid fa-arrow-right-long"></i>
+                    </p>
+                    <img
+                        src="./assets/images/cakeDisplay1.png"
+                        alt="Image of a cake"
+                    />
+                    <img
+                        src="./assets/images/cakeDisplay2.png"
+                        alt="Image of a cake"
+                    />
+                    <img
+                        src="./assets/images/cakeDisplay3.png"
+                        alt="Image of a cake"
+                    />
+                </div>
+                <div class="backgroundGradient"></div>
+            </section>
+            <section class="productsSection">
+                <div class="upperText">
+                    <h2>Try Our Best Selling</h2>
+                    <div class="separateLine"></div>
+                    <p>
+                        Here's our best creations that everyone loves. Lightness
+                        and sweetness of the cake make you want more and more.
+                        Start from cake, bread and other creations.
+                    </p>
+                </div>
+                <div class="productsCarousel">
+                    <div class="productCard">
+                        <img
+                            src="./assets/images/product1.png"
+                            alt="Image of cupcakes"
+                        />
+                        <h3>Red Velvet & Cream Cheese ( 500g )</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <p>4.0 Rating</p>
+                        </div>
+                    </div>
+                    <div class="productCard">
+                        <img
+                            src="./assets/images/product2.png"
+                            alt="Image of candies"
+                        />
+                        <h3>Red Velvet & Cream Cheese ( 500g )</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <p>4.0 Rating</p>
+                        </div>
+                    </div>
+                    <div class="productCard">
+                        <img
+                            src="./assets/images/product3.png"
+                            alt="Image of brownies"
+                        />
+                        <h3>Red Velvet & Cream Cheese ( 500g )</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <p>4.0 Rating</p>
+                        </div>
+                    </div>
+                    <div class="productCard">
+                        <img
+                            src="./assets/images/product4.png"
+                            alt="Image of cakes"
+                        />
+                        <h3>Red Velvet & Cream Cheese ( 500g )</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <p>4.0 Rating</p>
+                        </div>
+                    </div>
+                    <div class="productCard">
+                        <img
+                            src="./assets/images/product5.png"
+                            alt="Image of a cake"
+                        />
+                        <h3>Red Velvet & Cream Cheese ( 500g )</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <p>4.0 Rating</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="viewMoreBtn">
+                    View More <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </section>
             <section class="servicesSection"></section>
             <section class="quoteSection"></section>
             <section class="contactSection"></section>
